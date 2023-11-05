@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phone Number Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="content">
+    <h1>Phone Number Information</h1>
+    <br><br>
+    <div class="subcontent">
+    <form action="/" method="POST">
+        <label for="number_1">input number 1 </label>
+        <input type="text" name="number_1" id="number_1">
+        <label for="number_2">input number 2 </label>
+        <input type="text" name="number_2" id="number_2">
+        <label for="Output">Output</label>
+        <textarea name="Output" id="Output" cols="30" rows="10">{{result}}</textarea>
+        <a href="/add" class="">add</a>
+        <a href="/sub">sub</a>
+    </form>
+</div>
+</div>
+    <div id="result"></div>
+</body>
+</html>
